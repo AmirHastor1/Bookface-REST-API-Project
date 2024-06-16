@@ -1,0 +1,17 @@
+*.log
+*.tmp
+__pycache__
+node_modules/
+vendor/
+.idea/
+
+.vs/Bookface/FileContentIndex/01fee1ce-3a98-43ff-8b53-4af0334d8a22.vsidx
+.vs/Bookface/FileContentIndex/1ad5f2cc-61d2-40d9-8fff-9eadc4973692.vsidx
+.vs/Bookface/FileContentIndex/8ad4afef-feb9-47a1-9e88-2b6fc99633c8.vsidx
+.vs/Bookface/FileContentIndex/a2b595fb-15dc-46eb-890a-e7841284873f.vsidx
+.vs/Bookface/FileContentIndex/e8c86081-a525-4843-b0f3-005cbcef5ae0.vsidx
+.vs/Bookface/v17/.suo
+AutoMapperProfile/obj/Debug/net8.0/AutoMapperProfile.AssemblyInfo.cs
+AutoMapperProfile/obj/Debug/net8.0/AutoMapperProfile.AssemblyInfoInputs.cache
+Bookface/obj/Debug/net8.0/Bookface.AssemblyInfo.cs
+Bookface/obj/Debug/net8.0/Bookface.AssemblyInfoInputs.cache

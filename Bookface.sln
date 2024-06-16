@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookface", "Bookface\Bookface.csproj", "{CA99482A-FAB0-4970-BDF8-EAD81E78D007}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2DCA07F6-D2C4-4D3C-9193-91DABF8E3CA9} = {2DCA07F6-D2C4-4D3C-9193-91DABF8E3CA9}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapperProfile", "AutoMapperProfile\AutoMapperProfile.csproj", "{2DCA07F6-D2C4-4D3C-9193-91DABF8E3CA9}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BookfaceDatabase", "BookfaceDatabase\BookfaceDatabase.sqlproj", "{5F954E69-F48F-468E-90D6-CF45A300F98B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA99482A-FAB0-4970-BDF8-EAD81E78D007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA99482A-FAB0-4970-BDF8-EAD81E78D007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA99482A-FAB0-4970-BDF8-EAD81E78D007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA99482A-FAB0-4970-BDF8-EAD81E78D007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DCA07F6-D2C4-4D3C-9193-91DABF8E3CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCA07F6-D2C4-4D3C-9193-91DABF8E3CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCA07F6-D2C4-4D3C-9193-91DABF8E3CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCA07F6-D2C4-4D3C-9193-91DABF8E3CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F954E69-F48F-468E-90D6-CF45A300F98B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F954E69-F48F-468E-90D6-CF45A300F98B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F954E69-F48F-468E-90D6-CF45A300F98B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5F954E69-F48F-468E-90D6-CF45A300F98B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F954E69-F48F-468E-90D6-CF45A300F98B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F954E69-F48F-468E-90D6-CF45A300F98B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A5D01AE-171D-4288-8A1A-495586DD2392}
+	EndGlobalSection
+EndGlobal
